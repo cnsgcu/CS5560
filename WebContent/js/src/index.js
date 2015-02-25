@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	$("#alzBtn").click(function() {
-		$("#rstMsg").html("Analyzing...");
 		var msg = $("#txtMsg").val();
 		
 		if (msg) {
+			$("#rstMsg").html("Analyzing...");
 			$.ajax({
 				type: "POST",
 				url: "api/nlp",
