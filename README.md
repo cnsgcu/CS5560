@@ -11,4 +11,3 @@ To extract date, person name, organization, and location information from text m
 - [x] Display tooltips for each category
 - [ ] Tooltip shows person name origin
 - [ ] Tooltip shows confident score of gender detection by name
-- [ ] Tooltip shows organization stock market
